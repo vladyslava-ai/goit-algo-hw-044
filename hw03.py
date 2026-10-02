@@ -27,7 +27,7 @@ def main():
         print("Вказаний шлях не є директорією.")
         return
 
-    print(Fore.BLUE +  {path.name}")
+    print(Fore.BLUE + f" {path.name}")
     show_directory(path)
 
 
